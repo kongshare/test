@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nanfeng-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nanfeng-errueka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nanfeng-item" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nanfeng-item/nanfeng-item-pojo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nanfeng-item/nanfeng-item-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nanfeng-upload" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nanfeng-zuul" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

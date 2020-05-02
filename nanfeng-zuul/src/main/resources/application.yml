@@ -1,0 +1,34 @@
+server:
+  port: 10010
+spring:
+  application:
+    name: nanfeng-eureka-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+    registry-fetch-interval-seconds: 5
+zuul:
+  prefix: /api
+  routes:
+    nanfeng-item-service: /item/**
+    nanfeng-upload: /upload/**
+nanfeng:
+    cors:
+      allowOrigins:
+       - http://manage.leyou.com
+      allowCredentials: true
+      allowedHeaders:
+       - "*"
+      allowedMethods:
+       - HEAD
+       - GET
+       - PUT
+       - POST
+       - OPTIONS
+       - DELETE
+      maxAge: 360000
+      filePath: "/**"
+
+
+
